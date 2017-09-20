@@ -10,11 +10,19 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'latextools'
+      'label': 'LatexTools'
       'submenu': [
+        # {
+        #   'label': 'Toggle'
+        #   'command': 'latextools:toggle'
+        # }
         {
-          'label': 'Toggle'
-          'command': 'latextools:toggle'
+          'label': 'Clean Temp Files'
+          'command': 'latextools:delete-temp-files'
+        },
+        {
+          'label': 'Latex Build'
+          'command': 'latextools:build'
         }
       ]
     ]
