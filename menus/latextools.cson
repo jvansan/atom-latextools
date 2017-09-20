@@ -17,12 +17,12 @@
         #   'command': 'latextools:toggle'
         # }
         {
-          'label': 'Clean Temp Files'
-          'command': 'latextools:delete-temp-files'
-        },
-        {
           'label': 'Latex Build'
           'command': 'latextools:build'
+        },
+        {
+          'label': 'Clean Temp Files'
+          'command': 'latextools:delete-temp-files'
         }
       ]
     ]
